@@ -1,18 +1,29 @@
-import { CartWidget } from "../CartWidget/CartWidget";
+import { CartWidget } from "../Widget/CartWidget/CartWidget";
+import { GiftWidget } from "../Widget/GiftWidget/GiftWidget";
+import { UserWidget } from "../Widget/UserWidget/UserWidget";
+
+import './NavBar.css';
+
 
 export const NavBar = () => {
 
     return (
         
-        <header>
-            <h1>TIENDA FLORECER</h1>
+        <div className="navBar">
+            <nav className="navLinks">
+            <h1>tripbox</h1>
+                <ul>
+                    <li>Gastronomía</li> 
+                    <li>Bienestar</li>
+                    <li>Escapadas</li>   
+                    <li>Aventura</li>  
+                    <li><GiftWidget /></li>
+                    <li><UserWidget /></li>
+                    <li><CartWidget /></li>
+                </ul>
+            </nav> 
+            <div className="navline"></div>
+        </div>
 
-            <nav>
-                <p>Inicio</p>
-                <p>Nosotros</p>
-                <p>FAQS</p>
-                <CartWidget />
-            </nav>
-        </header>
     )
 }
