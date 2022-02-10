@@ -1,16 +1,17 @@
 .ListContainer{
     display:inline-grid;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .ListContainer img{
     height:12em;
     width:inherit;
+    object-fit: cover;
 }
 
 .card{
-    width:15em;
-    margin:0.5em;
+    width: 17em;
+    margin:1em ;
     font-family: 'Montserrat', sans-serif;
     background: #FFFFFF;
     box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.2);
@@ -19,24 +20,24 @@
 }
 
 .card h4{
-    color: #6EBDAA;
+    color: #63c7b0;
     text-align: left;
     font-size: 0.8em;
     font-weight: bolder;
     text-transform: uppercase;
-    margin-left:1em !important;
+    margin-left: 7.5%;
     letter-spacing: 0.1em;
 }
 
 .pricediv img{
-    width:32px !important;
+    width:32px;
     height: auto;
     margin-left:1em;
 }
 
 .card h3{
     text-align: left;
-    margin:0.6em !important;
+    margin-left: 7.5%;
     font-weight: 800;
     font-size: 1.2em;
     color:#21475A;
@@ -49,41 +50,51 @@
 .descr {
     color:#8C8C8C !important;
     font-size: 0.8em !important;
-    margin:1em !important;
+    margin-left: 7.5%;
+    width: 85%;
     text-align: left;
 }
 
 .price{
     text-align:left;
-    margin:1em !important;
+    margin-left: 7.5%;
     font-weight: 600;
     font-size: 1.3em !important;
 }
 
+.cardmap {
+    height: 20px;
+    color:#21475A;
+    display: flex;
+    padding: 0;
+    margin-left: 7.5%;
+    align-items: center;
+}
+
 .cardbuttons{
     display: flex;
-    margin:1em !important;
+    margin-left: 7.5%;
+    margin-bottom: 1.5em;
     align-items: center;
+    text-decoration:none;
+    width: 85%;
 }
 
 .btn{
     background-color:#088f8d;
     border: none !important;
-	border-radius:15px;
+	border-radius: 10px;
 	cursor:pointer;
 	color:#ffffff;
 	font-size: 0.8em;
-    letter-spacing: 0.1em;
-	padding:16px 32px;
-	text-decoration:none;
-    text-transform: uppercase;
-    font-weight: 700;
-}
+    font-weight: 600;
+    letter-spacing: 2px;
+    width: 100%;
+	padding:16px;
+    text-transform: uppercase; }
 
 button{
-    transition: all .2s ease-in-out;
-}
+    transition: all .2s ease-in-out; }
 
 button:hover{
-    transform: scale(1.07);
-}
+    transform: scale(1.07); }

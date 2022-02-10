@@ -17,6 +17,19 @@ color: #21475a;
 font-size: 16px;
 }
 
+.titleH2  {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-weight: 600;
+  color:#21475A;
+}
+
+.subTitle  {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color:#21475A;
+}
+
 .loading {
   font-family: 'Montserrat', sans-serif;
   font-size: 2em;

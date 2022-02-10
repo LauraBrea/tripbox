@@ -1,29 +1,28 @@
 import React,{useEffect,useState} from 'react';
-import { stock } from '../BaseDatosItems/stock';
+import { requestData } from "../Data/requestData";
 import { ItemList } from './ItemList/ItemList.js';
+import { useParams } from 'react-router-dom';
 import './ItemListContainer.css';
 
-
-export const pedirDatos = () => {
-    return new Promise( (resolve, reject) => {
-        setTimeout(() => {
-            resolve(stock)
-        }, 2500)
-    })
-}
 
 export const ItemListContainer = () => {
     
     const [items, setItems] = useState([])
     const [loading, setLoading] = useState(false)
 
+    const { catId } = useParams ()
+
     useEffect( () => {
         setLoading(true)
 
-        pedirDatos()
-            .then((res) => {
-                setItems( res )
-            })
+        requestData()
+        .then((res) => {
+            if (catId) {
+                setItems( res.filter((el) => el.category === catId ) )
+            } else {
+                setItems(res)
+            }
+        })
             .catch((err) => {
                 console.log(err)
             })
@@ -31,12 +30,13 @@ export const ItemListContainer = () => {
                setLoading(false)
             })
 
-    }, [])
+    }, [catId])
 
     return <div className="itemListContainer">
                 <section>
-                    <h1>Descubrí Tripbox</h1>
-                    <p>Tripbox es una forma diferente de vivir emociones y experiencias únicas. <br></br> Vivilo. Disfrutá. Regalá!</p>
+                    <h2 className='titleH2'>Descubrí Tripbox</h2>
+                    <p className='subTitle'>Tripbox es una forma diferente de vivir emociones y experiencias únicas.</p>
+                    <p className='subTitle'><strong>Vivilo. Disfrutá. Regalá!</strong></p>
                 </section>
                 {loading ? <h2 className='loading'>Cargando...</h2> : <ItemList items={items}/> } 
             </div>
