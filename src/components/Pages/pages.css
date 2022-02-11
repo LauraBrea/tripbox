@@ -9,9 +9,16 @@
     font-weight: 600;
     color:#21475A; }
   
+.pagetitleH3  {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7em;
+    font-weight: 600;
+    color:#21475A; }
+      
+
 .pagesubTitle  {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 400;
     color:#21475A; 
     margin: 2rem 4rem 2rem 4rem; }

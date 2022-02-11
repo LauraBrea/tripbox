@@ -8,10 +8,9 @@ En el proyecto se puede navegar entre las distintas categorías y ver el detalle
 
 ## Deploy
 
-<a href="https://gifted-northcutt-98918e.netlify.app"> Live Site </a>
+<a href=""> Site (proximamente!) </a>
 
 ## Demo
 
-<img src="https://media2.giphy.com/media/fW8zzuyMB4suNE6BUP/giphy.gif" alt="gif de agregado de items al carrito">
+<img src="../src/img/ezgif.com-gif-maker.gif" alt="gif operatividad de la pagina">
 <br>
-<img src="https://media2.giphy.com/media/4ay2UFTZZsTFEZtfCi/giphy.gif" alt="gif de formulario y compra exitosa">

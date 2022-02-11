@@ -4,6 +4,17 @@
     margin-top: 5em;
 }
 
+.detailloading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: 200;
+    color:#21475A;
+    margin-top: 60px;
+    height: 12em;
+    text-align: center;
+  }
+
+
 /*mobile  */
 @media screen and (max-width: 640px){
     
