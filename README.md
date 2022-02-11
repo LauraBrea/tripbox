@@ -16,7 +16,8 @@ Además, se puede navegar entre las distintas categorías y ver el detalle de la
 <img src="https://github.com/LauraBrea/tripbox/blob/master/img/ezgif.com-gif-maker.gif" alt="gif funcionalidad de la pagina">
 
 Se agrego el logo.ico, tambien el loader (con una imagen gif mientras carga) y el contador para el item detail (que suma y resta a partir de 1)
+
 <img src="https://github.com/LauraBrea/tripbox/blob/master/img/ezgif.com-gif-maker-1.gif" alt="gif funcionalidad de la pagina">
 
 
-* Página ficticia - Curso React Js CODER HOUSE *
+**Página ficticia - Curso React Js CODER HOUSE**
