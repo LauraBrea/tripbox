@@ -12,5 +12,5 @@ En el proyecto se puede navegar entre las distintas categorías y ver el detalle
 
 ## Demo
 
-<img src="https://drive.google.com/file/d/1pRc32gI34K-rca0hI83IgN-9FlMRlam_/view?usp=sharing" alt="gif operatividad de la pagina">
+<img src="" alt="gif operatividad de la pagina">
 <br>
