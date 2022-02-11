@@ -1,6 +1,7 @@
 import React,{useEffect,useState} from 'react';
 import { requestData } from "../Data/requestData";
 import { ItemList } from './ItemList/ItemList.js';
+import { Loader } from "../Loader/Loader";
 import { useParams } from 'react-router-dom';
 import './ItemListContainer.css';
 
@@ -38,7 +39,7 @@ export const ItemListContainer = () => {
                     <p className='subTitle'>Tripbox es una forma diferente de vivir emociones y experiencias únicas.</p>
                     <p className='subTitle'><strong>Vivilo. Disfrutá. Regalá!</strong></p>
                 </section>
-                {loading ? <h2 className='loading'>Cargando...</h2> : <ItemList items={items}/> } 
+                {loading ? <Loader /> : <ItemList items={items}/> } 
             </div>
 }
 

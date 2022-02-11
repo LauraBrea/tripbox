@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { requestData } from "../Data/requestData";
 import { ItemDetail } from "./ItemDetail/ItemDetail.js";
+import { Loader } from "../Loader/Loader";
 import "./ItemDetailContainer.css";
 
 
@@ -26,7 +27,7 @@ export const ItemDetailContainer = () => {
 
   return (
       <div >
-        {loading ? <h2 className='detailloading'>Cargando...</h2> : <ItemDetail {...item}/> } 
+        {loading ? <Loader /> : <ItemDetail {...item}/> } 
       </div>
 )
 };

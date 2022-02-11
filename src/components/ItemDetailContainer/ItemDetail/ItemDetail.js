@@ -4,7 +4,6 @@ import { MapWidget } from "../../Widget/MapWidget/MapWidget";
 import { ItemCount } from "../ItemCount/ItemCount";
 import "./ItemDetail.css";
 
-
 export const ItemDetail = ({id, name, img, description, included, price, map, stock, category}) => {
 
   return (

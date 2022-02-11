@@ -15,7 +15,5 @@ export const Regalos = () => {
             <h2 className='pagetitleH3'>Que pasa si pierdo mi código?</h2>
             <p className='pagesubTitle'>Si cuando recibiste el regalo, abriste el código en nuestra web, podrás verlo si ingresas con tu usuario y luego en regalos recibidos. Si no lo habías abierto y recibiste una física, es necesario que nos indiques los datos de la compra para que podamos rastrearlo.</p>
             <p className='pagesubTitle'>Si el prestador acepta la cancelación debes enviarnos un mail a info@tripbox.com.ar para que liberemos el código.</p>
-
-    
     </div>
 };
