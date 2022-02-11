@@ -12,5 +12,6 @@ En el proyecto se puede navegar entre las distintas categorías y ver el detalle
 
 ## Demo
 
-<img src="" alt="gif operatividad de la pagina">
+<img src="https://github.com/LauraBrea/tripbox/blob/master/img/ezgif.com-gif-maker.gif" alt="gif operatividad de la pagina">
+
 <br>
