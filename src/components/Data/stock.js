@@ -6,8 +6,8 @@ export const stock = [
         map: 'Pilar, Buenos Aires',
         included: 'Actividad para 1 persona',
         description: 'Accedé a un hotel de lujo durante todo un día, relajate y escapá de la rutina.', 
-        stock: true,
-        price:'8600'},
+        stock:10,
+        price:8600},
 
     {   id:2, 
         img: 'https://images.unsplash.com/photo-1643133277936-9f93d8792522?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
@@ -16,8 +16,8 @@ export const stock = [
         map: 'Palermo, Caba',
         included: 'Almuerzo o cena para 2 personas',
         description: 'Cocina de alta calidad en un ambiente sumamente agradable y familiar.', 
-        stock: true,
-        price:'3500'},
+        stock:10,
+        price:3500},
 
     {   id:3, 
         img: 'https://images.unsplash.com/photo-1558347718-b45a32c31c03?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
@@ -26,8 +26,8 @@ export const stock = [
         map: 'Bariloche, Rio Negro',
         included: 'Estadía dos noches para 2 personas',
         description: 'Una escapada ideal para desconectarte entre la montaña y el lago.', 
-        stock: true,
-        price:'28900'},
+        stock:5,
+        price:28900},
 
     {   id:4, 
         img: 'https://images.unsplash.com/photo-1631839686574-2497d4b71873?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
@@ -36,8 +36,8 @@ export const stock = [
         map: 'La Falda, Córdoba',
         included: 'Estadía dos noches para 2 personas',
         description: 'Un antiguo edificio de 1910, convertido en un hotel boutique inmerso en el verde.', 
-        stock: true,
-        price:'11900'},
+        stock:5,
+        price:11900},
 
     {   id:5, 
         img: 'https://images.unsplash.com/photo-1640881814842-97c33397d6e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
@@ -46,8 +46,8 @@ export const stock = [
         map: 'Pinamar, Buenos Aires',
         included: 'Actividad para 1 persona',
         description: 'Disfrutá de una clase de surf en nuestra escuela con profesor y equipamiento incluido.', 
-        stock: true,
-        price:'3800'},
+        stock:20,
+        price:3800},
 
     {   id:6, 
         img: 'https://images.unsplash.com/photo-1567281105113-a9b2effdc9a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80',
@@ -56,8 +56,8 @@ export const stock = [
         map: 'Recoleta, Caba',
         included: 'Actividad para 1 persona',
         description: 'Sesión de yoga de una hora y media, beneficiosa tanto para el cuerpo como para la mente.', 
-        stock: true,
-        price:'3500'},
+        stock:10,
+        price:3500},
 
     {   id:7, 
         img: 'https://images.unsplash.com/photo-1601312539654-6c279c939e31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=770&q=80',
@@ -66,8 +66,8 @@ export const stock = [
         map: 'La Plata, Buenos Aires',
         included: 'Almuerzo o cena para 2 personas',
         description: 'Disfrutá de nuestros exclusivos y deliciosos platos veganos pensados para vos.', 
-        stock: true,
-        price:'7200'},
+        stock:10,
+        price:7200},
 
     {   id:8, 
         img: 'https://images.unsplash.com/photo-1496886077455-6e206da90837?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
@@ -76,6 +76,6 @@ export const stock = [
         map: 'Garín, Buenos Aires',
         included: 'Actividad para 1 persona',
         description: 'Clase de skate. Aprendé con nuestros mejores profes y disfrutá de nuestras pistas.', 
-        stock: true,
-        price:'2600'}
+        stock:25,
+        price:2600}
 ]

@@ -1,4 +1,4 @@
-import React,{useEffect,useState} from 'react';
+import { useEffect,useState } from 'react';
 import { requestData } from "../Data/requestData";
 import { ItemList } from './ItemList/ItemList.js';
 import { Loader } from "../Loader/Loader";

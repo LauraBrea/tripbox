@@ -7,14 +7,15 @@
 
 .loadertxt {
     font-family: 'Montserrat', sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 200;
     color:#21475A;
+    padding: 0;
     margin-top: 100px;
 }
 
 .loaderimg {
     width: auto;
-    height: 60%;
+    height: 50%;
     top: 0%;
 }
