@@ -1,40 +1,35 @@
 import { useContext } from "react";
 import { CartContext } from "../Cart/CartContext";
 import { DeleteWidget } from "../Widget/DeleteWidget/DeleteWidget";
-
 import "./Cart.css";
 
 
 export const Cart = () => {
 
-    const { cart, totalCart, vaciarCart, eliminarItem } = useContext(CartContext);
+    const { cart, totalCart, deleteCart, deleteItem } = useContext(CartContext);
 
     return (
         <div className="cartDetail">
             <h2 className="cartTitle">Carrito de Compras</h2>
-            <hr/>
-
             {
-                cart.map((item) => (
-                    <div className="itemRow" key={item.id}>
-                        <img src={item.img} alt="" />
-                        <h4>{item.name}</h4>
-                        <p>Cantidad: {item.qty}</p>
-                        <p>Precio: ${item.qty * item.price}</p>
-                        <button className="deleteCartItem" onClick={() => eliminarItem(item.id)}>
-                            <DeleteWidget/>
-                        </button>
-                    </div>
-                ))
+              cart.map((item) => (
+                  <div className="itemRow" key={item.id}>
+                      <img src={item.img} alt={item.name}/>
+                      <h4>{item.name}</h4>
+                      <p>Cantidad: {item.qty}</p>
+                      <p>Precio: $ {item.qty * item.price}</p>
+                      <button className="deleteCartItem" onClick={() => deleteItem(item.id)}>
+                          <DeleteWidget/>
+                      </button>
+                  </div>
+              ))
             }
-
-            <hr/>
-            <h2 className="cartTotal" >Total: ${totalCart()}</h2>
-
-            <div className="itemRow">
-                <button className="addCartButton " onClick={vaciarCart}>Vaciar carrito</button>
-                <button className="addCartButton ">Finalizar compra</button>
+            <h2 className="cartTotal" >Total: $ {totalCart()}</h2>
+            <div className="btnRow">
+                <button className="btnRowButton " onClick={deleteCart}>Vaciar carrito</button>
+                <button className="btnRowButton ">Finalizar compra</button>
             </div>
         </div>
     )
 }
+

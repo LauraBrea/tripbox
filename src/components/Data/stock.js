@@ -50,7 +50,7 @@ export const stock = [
         price:3800},
 
     {   id:6, 
-        img: 'https://images.unsplash.com/photo-1567281105113-a9b2effdc9a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80',
+        img: 'https://images.unsplash.com/photo-1567281105113-a9b2effdc9a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
         name: 'Mandala Yoga', 
         category:'bienestar',
         map: 'Recoleta, Caba',
@@ -60,7 +60,7 @@ export const stock = [
         price:3500},
 
     {   id:7, 
-        img: 'https://images.unsplash.com/photo-1601312539654-6c279c939e31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=770&q=80',
+        img: 'https://images.unsplash.com/photo-1601312539654-6c279c939e31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
         name: 'Hola Veggie', 
         category:'gastronomia',
         map: 'La Plata, Buenos Aires',
