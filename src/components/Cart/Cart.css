@@ -20,7 +20,7 @@
   align-items: center;
   border-bottom: 1px solid #eee;
   display: grid;
-  grid-template-columns: 7em 15em 10em 12em 1em;
+  grid-template-columns: 7em 17em 16em 12em 1em;
 }
 
   .itemRow img {
@@ -41,6 +41,9 @@
     font-family: 'Montserrat', sans-serif;
     color: #888;
     font-weight: 500;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     margin-left: 1em;
     margin-right: 3em;
   }

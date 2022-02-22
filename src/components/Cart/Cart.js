@@ -13,12 +13,15 @@ export const Cart = () => {
             <h2 className="cartTitle">Carrito de Compras</h2>
             {
               cart.map((item) => (
-                  <div className="itemRow" key={item.id}>
-                      <img src={item.img} alt={item.name}/>
-                      <h4>{item.name}</h4>
-                      <p>Cantidad: {item.qty}</p>
-                      <p>Precio: $ {item.qty * item.price}</p>
-                      <button className="deleteCartItem" onClick={() => deleteItem(item.id)}>
+                  <div className="itemRow" key={item.item.id}>
+                      <img src={item.item.img} alt={item.item.name}/>
+                      <h4>{item.item.name}</h4>
+                      <article>
+                        <p>Cantidad: {item.qty}</p>
+                        <p>Precio Unitario: $ {item.item.price}</p>
+                      </article>
+                      <p>Precio: $ {item.qty * item.item.price}</p>
+                      <button className="deleteCartItem" onClick={() => deleteItem(item.item.id)}>
                           <DeleteWidget/>
                       </button>
                   </div>
