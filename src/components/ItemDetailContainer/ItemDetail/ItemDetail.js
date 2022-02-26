@@ -14,14 +14,11 @@ export const ItemDetail = ({id, name, img, description, included, price, map, st
     const { addToCart } = useContext(CartContext);
 
     const onAdd = (qty) => {   
-      
-      if (qty !== 0) {
 
         showEndPurchase(true);
 
         const addItem = { id, img, name, price}
         addToCart(addItem, qty);
-      }
   }
 
   return (

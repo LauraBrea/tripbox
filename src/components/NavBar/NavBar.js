@@ -18,7 +18,7 @@ export const NavBar = () => {
                     <Link to='/categoria/escapadas'>Escapadas</Link>
                     <Link to='/categoria/aventura'>Aventura</Link>
                 </div>
-                <div className="navCategory">
+                <div className="navIcons">
                     <Link to='/pages/informacion'><InfoWidget /></Link>
                     <Link to='/pages/regalos'><GiftWidget /></Link>
                     <Link to='/'><UserWidget /></Link>

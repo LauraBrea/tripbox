@@ -6,10 +6,11 @@ import { CartContext } from '../../Cart/CartContext';
 
 export const CartWidget = () => {
 
-  const { qtyCart } = useContext(CartContext);
+  const { qtyCart, cart } = useContext(CartContext);
 
   return (
-      <Link to="/cart" className='navCategoryIcon'>
+
+      <Link to="/cart" className={`navCart ${cart.length === 0 ? 'navCartHidden' : ''}`}>
           <FontAwesomeIcon icon={ faShoppingCart } />
           <span>{qtyCart()}</span>
       </Link>

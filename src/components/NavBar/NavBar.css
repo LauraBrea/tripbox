@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 95%;
+    width: 96%;
 }
 
 .navLinks{
@@ -41,8 +41,7 @@
     font-weight: 400;
     font-size: 1.1rem;
     color:#21475A;
-    padding: 15px;
-    margin: 0;
+    padding: 20px;
 }
 
 .navCategory a:hover{
@@ -51,7 +50,29 @@
     cursor: pointer;
 }
 
-.navCategoryIcon span {
+.navIcons a {
     text-decoration: none;
+    color:#21475A;
     padding: 10px;
+    text-align: left;
+}
+
+.navIcons a:hover{
+    color:#6EBDAA;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.navCart {
+    visibility: visible;
+}
+
+.navCart span {
+    text-decoration: none;
+    padding: 5px;
+}
+
+.navCartHidden {
+    visibility: hidden;
+    cursor: not-allowed;
 }

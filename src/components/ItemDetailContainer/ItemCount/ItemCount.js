@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export const ItemCount = ({max, min = 0, onAdd}) => {
+export const ItemCount = ({max, min = 1, onAdd}) => {
 
     const [count, setCount] = useState(min);
 

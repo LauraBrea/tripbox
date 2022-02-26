@@ -15,7 +15,7 @@ export const stock = [
         category:'gastronomia',
         map: 'Palermo, Caba',
         included: 'Almuerzo o cena para 2 personas',
-        description: 'Cocina de alta calidad en un ambiente sumamente agradable y familiar.', 
+        description: 'Hacemos veinte tipo diferentes de hambuerguesas caseras para todos los gustos de la familia.', 
         stock:10,
         price:3500},
 
@@ -78,4 +78,7 @@ export const stock = [
         description: 'Clase de skate. Aprendé con nuestros mejores profes y disfrutá de nuestras pistas.', 
         stock:25,
         price:2600}
+
+
+
 ]
