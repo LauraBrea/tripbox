@@ -53,8 +53,12 @@
 .navIcons a {
     text-decoration: none;
     color:#21475A;
-    padding: 10px;
+    margin-right: 15px;
     text-align: left;
+}
+
+.navIcons span {
+    margin-left: 3px;
 }
 
 .navIcons a:hover{
@@ -67,12 +71,20 @@
     visibility: visible;
 }
 
-.navCart span {
-    text-decoration: none;
-    padding: 5px;
+.navCartHidden {
+    visibility: visible;
+    opacity: 0.2;
+    cursor: not-allowed;
 }
 
-.navCartHidden {
-    visibility: hidden;
+.navCartHidden a {
+    cursor: not-allowed;
+}
+
+.navCartHidden span {
+    cursor: not-allowed;
+}
+
+.navCartHidden svg {
     cursor: not-allowed;
 }

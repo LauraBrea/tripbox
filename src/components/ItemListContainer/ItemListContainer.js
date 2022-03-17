@@ -2,11 +2,9 @@ import { useEffect,useState } from 'react';
 import { ItemList } from './ItemList/ItemList.js';
 import { Loader } from "../Loader/Loader";
 import { useParams } from 'react-router-dom';
-import './ItemListContainer.css';
-
-import { dataBase } from "../../Firebase/config";
+import { dataBase } from "../../firebase/config";
 import { collection, getDocs, query, where } from "firebase/firestore";
-
+import './ItemListContainer.css';
 
 export const ItemListContainer = () => {
     
@@ -33,9 +31,7 @@ export const ItemListContainer = () => {
             .finally(() => {
                 setLoading(false)
             })
-
 }, [catId])
-
 
     return <div className="itemListContainer">
                 <section>
@@ -46,26 +42,3 @@ export const ItemListContainer = () => {
                 {loading ? <Loader /> : <ItemList items={items}/> } 
             </div>
 }
-
-
-/*
-    useEffect( () => {
-        setLoading(true)
-
-        requestData()
-        .then((res) => {
-            if (catId) {
-                setItems( res.filter((el) => el.category === catId ) )
-            } else {
-                setItems(res)
-            }
-        })
-            .catch((err) => {
-                console.log(err)
-            })
-            .finally(() => {
-               setLoading(false)
-            })
-
-    }, [catId])
-    */

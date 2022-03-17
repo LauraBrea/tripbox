@@ -55,12 +55,36 @@
     text-align: left;
 }
 
+.priceLine{
+    display: flex;
+    flex-direction: row;
+}
+
 .price{
     text-align:left;
     margin-left: 7.5%;
+    margin-right: 2rem;
     font-weight: 600;
     font-size: 1.3em !important;
+    align-items: center;
 }
+
+.stock{
+    color:white !important;
+    font-size: 1em !important;
+    text-align: right;
+    padding-top: 0.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    background-color:#63c7b0;
+    border-radius: 8px;
+}
+
+.stockSm{
+    display: none;
+}
+
+
 
 .cardmap {
     height: 20px;
@@ -71,26 +95,47 @@
     align-items: center;
 }
 
-.cardbuttons{
-    display: flex;
-    margin-left: 7.5%;
-    margin-bottom: 1.5em;
-    align-items: center;
-    text-decoration:none;
+.cardBtnBox{
     width: 85%;
+    height: auto;
+    margin-left: 7.5%;
+    margin-top: 0.5rem;
+    margin-bottom: 1.25rem;
 }
 
-.btn{
+.cardBtn{
     background-color:#088f8d;
     border: none !important;
 	border-radius: 10px;
 	cursor:pointer;
 	color:#ffffff;
-	font-size: 0.85em;
     font-weight: 600;
     letter-spacing: 2px;
     width: 100%;
 	padding:16px;
+    text-transform: uppercase; 
+}
+
+.cardBtnLink{
+   cursor: pointer;
+   align-items: center;
+   text-decoration:none;
+   color:#ffffff;
+   font-weight: 600;
+   width: 100%;
+   text-transform: uppercase;
+}
+
+.btnNg{
+    background-color:#d6d6d6;
+    border: none !important;
+    border-radius: 10px;
+    pointer-events: none;
+    color:#ffffff;
+    font-weight: 600;
+    letter-spacing: 2px;
+    width: 100%;
+    padding:16px;
     text-transform: uppercase; }
 
 button{

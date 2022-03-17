@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { MapWidget } from "../../Widget/MapWidget/MapWidget";
 
-export const Item = ({ id, categ, img, title, map, descr, price }) => {
+export const Item = ({ id, categ, img, title, map, descr, price, stock }) => {
   
     return (
       <div className="card">
@@ -14,11 +14,13 @@ export const Item = ({ id, categ, img, title, map, descr, price }) => {
           <p className="descr">{map}</p>
         </div>
         <p className="descr">{descr}</p>
-        <p className="price">$ {price}</p>
-        <div>
-          <Link to={`/detalle/${id}`} className="cardbuttons">
-            <button className="btn">Comprar</button>
-          </Link>
+        <article className="priceLine">
+          <p className="price">$ {price}</p>
+          <p className={`stock ${stock > 0 && stock <= 20 ? 'stock' : 'stockSm'}`}>Últimos {stock} !</p>
+        </article>
+        <div className="cardBtnBox">
+          <button className={`cardBtn ${stock === 0 ? 'btnNg' : 'cardBtn'}`}>
+            <Link to={`/detalle/${id}`} className="cardBtnLink">Comprar</Link></button>
         </div>
       </div>
     );

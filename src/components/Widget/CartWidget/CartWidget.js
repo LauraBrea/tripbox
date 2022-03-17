@@ -10,7 +10,7 @@ export const CartWidget = () => {
 
   return (
 
-      <Link to="/cart" className={`navCart ${cart.length === 0 ? 'navCartHidden' : ''}`}>
+      <Link to='/cart' className={`navCart ${cart.length === 0 ? 'navCartHidden' : ''}`}>
           <FontAwesomeIcon icon={ faShoppingCart } />
           <span>{qtyCart()}</span>
       </Link>

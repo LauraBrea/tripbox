@@ -68,8 +68,6 @@
   color: #21475a; 
   margin-top: 30px;}
 
-
-
 /* -----*/  
 
 .counterGroup {
@@ -81,6 +79,7 @@
 .counterGroupAdd {
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
 .countertot {
@@ -105,9 +104,23 @@
   text-transform: uppercase;
   font-weight: 700;
   height: 3.5em;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
   margin-right: 1.5em;
+  width: 210px;
+}
+.addCartButtonNg {
+  background-color: #ffffff;
+  border: 1px solid #088f8d;
+  border-radius: 10px;
+  cursor: pointer;
+  color:#088f8d;
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  height: 3.5em;
+  margin-right: 1.5em;
+  width: 210px;
 }
   
 .circlebuttonsgroup {
@@ -136,63 +149,15 @@
   display: flex;
   align-items: center;
   margin-top: 2em;
+  width: 100%;
 }
 
 
-
-  
-/*mobile  */
-@media screen and (max-width: 640px) {
-  .productDetail {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1.2fr 1fr;
-
-  }
-/*
-  .productDetail img {
-    margin-left: 0;
-    width: inherit;
-    border-radius: 20px;
-    margin-left: 3em;
-    object-fit: cover;
-  }
-
-  .prodinfo {
-    width: inherit !important;
-    margin-left: 0;
-    padding-left: 3em;
-    padding-right: 3em;
-  }
-  */
-}
-
-/*tablet  */
-@media screen and (min-width: 640px) and (max-width: 1280px) {
+/*mobile  & tablet  */
+@media screen and (max-width: 1100px) {
   .productDetail {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: 1.2fr 1fr;
       }
-  
-  /*  
-  .productDetail img {
-    margin-left: 0;
-    width: inherit;
-    border-radius: 20px;
-    margin-left: 3em;
-    object-fit: cover;
-  }
-
-  .pricediv img {
-    padding: 0 !important;
-  }
-
-  .prodinfo {
-    width: inherit !important;
-    margin-left: 0;
-    padding-left: 3em;
-    padding-right: 3em;
-  }
-  */
 }

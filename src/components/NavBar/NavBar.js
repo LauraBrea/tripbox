@@ -2,7 +2,7 @@ import { CartWidget } from "../Widget/CartWidget/CartWidget";
 import { GiftWidget } from "../Widget/GiftWidget/GiftWidget";
 import { UserWidget } from "../Widget/UserWidget/UserWidget";
 import { InfoWidget } from "../Widget/InfoWidget/InfoWidget";
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './NavBar.css';
 
 

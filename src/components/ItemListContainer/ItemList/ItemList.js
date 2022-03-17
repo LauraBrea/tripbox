@@ -16,7 +16,9 @@ export const ItemList=({items}) => {
                     categ={item.category} 
                     map={item.map} 
                     descr={item.description}
-                    price={item.price} />
+                    price={item.price} 
+                    stock={item.stock} 
+                    />
             </div>
         })
     }

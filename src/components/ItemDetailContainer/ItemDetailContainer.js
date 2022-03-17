@@ -2,10 +2,9 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { ItemDetail } from "./ItemDetail/ItemDetail.js";
 import { Loader } from "../Loader/Loader";
-import "./ItemDetailContainer.css";
-
-import { dataBase } from "../../Firebase/config";
+import { dataBase } from "../../firebase/config";
 import { doc, getDoc } from "firebase/firestore";
+import "./ItemDetailContainer.css";
 
 export const ItemDetailContainer = () => {
 
@@ -26,7 +25,7 @@ export const ItemDetailContainer = () => {
             .finally(() => {
                 setLoading(false)
             })
-  }, [])
+  }, [itemId])
 
   return (
       <div >
@@ -34,24 +33,3 @@ export const ItemDetailContainer = () => {
       </div>
 )
 };
-
-/*
-export const ItemDetailContainer = () => {
-
-  const [item, setItem] = useState(null)
-  const [loading, setLoading] = useState(false)
-
-  const { itemId } = useParams()
-
-  useEffect(() => {
-      setLoading(true)
-
-      requestData()
-          .then((res) => {
-              setItem( res.find((el) => el.id === Number(itemId)) )
-          })
-          .finally(() => {
-              setLoading(false)
-          })
-  }, [])
-  */
