@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import thankYou from '../imgs/thankYou.png';
 
+
 export const ThankYou = ({order}) => {
 
     return <div className="check">

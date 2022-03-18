@@ -6,6 +6,7 @@ import { dataBase } from "../../firebase/config";
 import { doc, getDoc } from "firebase/firestore";
 import "./ItemDetailContainer.css";
 
+
 export const ItemDetailContainer = () => {
 
   const [item, setItem] = useState(null)

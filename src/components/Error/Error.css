@@ -1,0 +1,38 @@
+.errorbox {
+    width: 100%;
+    height:auto;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.errortxt {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    color:#21475A;
+    top: 16em;
+    width: 100%;
+    text-align: center;
+}
+
+.errorimg {
+    width: auto;
+    height: 23em;
+    object-fit: cover;
+}
+
+.errorbtn{
+    background-color:#088f8d;
+    border: none;
+	border-radius: 10px;
+	cursor:pointer;
+	color:#ffffff;
+    font-family: 'Montserrat', sans-serif;
+	font-size: 0.8em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase; 
+    text-decoration: none;
+	padding: 16px;
+    top: 35em;
+    }

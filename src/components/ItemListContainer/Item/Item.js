@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { MapWidget } from "../../Widget/MapWidget/MapWidget";
 
+
 export const Item = ({ id, categ, img, title, map, descr, price, stock }) => {
   
     return (
