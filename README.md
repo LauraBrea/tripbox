@@ -1,6 +1,8 @@
+**Página ficticia - Curso React Js CODER HOUSE**
+
 # Tripbox
 
-En este e-commerce se pueden comprar y regalar diversas propuestas recreativas, las cuales pueden ser filtradas por tipo: gastronómico, bienestar, aventura y escapadas.
+En este e-commerce se pueden comprar y regalar diversas propuestas recreativas, las cuales pueden ser filtradas por tipo: gastronómico, bienestar, aventura y escapadas. 
 
 ## Descripción
 
@@ -13,11 +15,26 @@ Además, se puede navegar entre las distintas categorías y ver el detalle de la
 
 ## Demo
 
-<img src="https://github.com/LauraBrea/tripbox/blob/master/img/ezgif.com-gif-maker.gif" alt="gif funcionalidad de la pagina">
+Página de inicio con lista de productos
+<img src="https://github.com/LauraBrea/tripbox/blob/master/img/index.jpg" alt="home">
 
-Se agrego el logo.ico, tambien el loader (con una imagen gif mientras carga) y el contador para el item detail (que suma y resta a partir de 1)
+Productos filtrados por categoría
+<img src="https://github.com/LauraBrea/tripbox/blob/master/img/categoria.jpg" alt="vista por categoria">
 
-<img src="https://github.com/LauraBrea/tripbox/blob/master/img/ezgif.com-gif-maker-1.gif" alt="gif funcionalidad de la pagina">
+Vista del producto seleccionado 
+<img src="https://github.com/LauraBrea/tripbox/blob/master/img/itemDetail.jpg" alt="vista del producto">
+
+Carrito de compras 
+<img src="https://github.com/LauraBrea/tripbox/blob/master/img/cart.jpg" alt="carrito de compras">
+
+Ingreso de datos del comprador y confirmación de compra 
+<img src="https://github.com/LauraBrea/tripbox/blob/master/img/checkout.jpg" alt="confirmacion de compra">
+
+Vista final con el código de confirmación de la compra
+<img src="https://github.com/LauraBrea/tripbox/blob/master/img/finish.jpg" alt="codigo de compra">
+
+Página error404
+<img src="https://github.com/LauraBrea/tripbox/blob/master/img/404.jpg" alt="codigo de compra">
 
 
-**Página ficticia - Curso React Js CODER HOUSE**
+
