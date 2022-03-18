@@ -32,7 +32,7 @@ export const ItemListContainer = () => {
             .finally(() => {
                 setLoading(false)
             })
-}, [catId])
+    }, [catId])
 
     return <div className="itemListContainer">
                 <section>

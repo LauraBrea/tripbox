@@ -5,7 +5,7 @@ import { Footer } from "./components/Footer/Footer";
 import { Regalos } from "./components/Pages/Regalos";
 import { Informacion } from "./components/Pages/Informacion";
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-
+import { Error } from "./components/Error/Error";
 import { CartProvider } from "./components/Cart/CartContext";
 import { Cart } from "./components/Cart/Cart";
 import { Checkout } from "./components/Checkout/Checkout"
@@ -27,6 +27,7 @@ function App() {
                 <Route path='*' element={ <Navigate to='/'/> }/>
                 <Route path='/cart' element={ <Cart/> } />
                 <Route path='/checkout' element={ <Checkout/> } />
+                <Route path='/404' element={ <Error/> }/>
             </Routes>
             <Footer/>
         </BrowserRouter>

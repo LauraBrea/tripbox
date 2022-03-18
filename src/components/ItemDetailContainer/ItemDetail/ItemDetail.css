@@ -2,6 +2,7 @@
   width: 90%;
   max-height: auto;
   margin-left: 5%;
+  margin-right: 5%;
   display: grid;
   grid-template-columns: 1.2fr 1fr;
   margin-top: 6em;
@@ -46,7 +47,8 @@
   .prodinfo p {
     color:#8C8C8C;
     font-size: 1.1em;
-    text-align: left; }
+    text-align: left; 
+    width: 95%;}
 
 .productmap {
   height: 20px;

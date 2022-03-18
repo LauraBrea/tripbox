@@ -27,6 +27,8 @@
     text-transform: uppercase;
     margin-left: 7.5%;
     letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+
 }
 
 .pricediv img{
@@ -41,6 +43,8 @@
     font-weight: 700;
     font-size: 1.3em;
     color:#21475A;
+    margin-bottom: 1rem;
+    margin-top: 4px;
 }
 
 .card img{
@@ -58,12 +62,16 @@
 .priceLine{
     display: flex;
     flex-direction: row;
+    height: 2.25rem;
+    align-self: center;
 }
 
 .price{
     text-align:left;
     margin-left: 7.5%;
     margin-right: 2rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0;
     font-weight: 600;
     font-size: 1.3em !important;
     align-items: center;
@@ -73,9 +81,8 @@
     color:white !important;
     font-size: 1em !important;
     text-align: right;
-    padding-top: 0.5rem;
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
+    padding: 0.5rem 0.75rem;
+    margin: 0;
     background-color:#63c7b0;
     border-radius: 8px;
 }
@@ -99,7 +106,7 @@
     width: 85%;
     height: auto;
     margin-left: 7.5%;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     margin-bottom: 1.25rem;
 }
 
