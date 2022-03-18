@@ -13,6 +13,8 @@ export const Checkout = () => {
     const {cart, totalCart, deleteCart} = useContext(CartContext);
 
     const [orderId, setOrderId] = useState(null);
+    const [mailConfirmation, setMailConfirmation] = useState("");
+
 
     const [values, setValues] = useState({
         nombre: '',
@@ -48,14 +50,7 @@ export const Checkout = () => {
                         value={values.nombre}
                         onChange={handleInputChange}
                         name='nombre'
-                    />
-                    <input
-                        className="checkFormtxt"
-                        type='email'
-                        placeholder="Tu email"
-                        value={values.email}
-                        onChange={handleInputChange}
-                        name='email'
+                        enterKeyHint="next"
                     />
                     <input
                         className="checkFormtxt"
@@ -64,8 +59,27 @@ export const Checkout = () => {
                         value={values.tel}
                         onChange={handleInputChange}
                         name='tel'
+                        enterKeyHint="next"
                     />
-                    <button type="submit" className="checkBtn"> Enviar </button>
+                    <input
+                        className="checkFormtxt"
+                        type='email'
+                        placeholder="Tu email"
+                        value={values.email}
+                        onChange={handleInputChange}
+                        name='email'
+                        enterKeyHint="next"
+                    />
+                    <input
+                        className="checkFormtxt"
+                        type='email'
+                        placeholder="Confirma tu email"
+                        value={mailConfirmation}
+                        onChange={(e) => setMailConfirmation(e.target.value)}
+                        name='checkemail'
+                        enterKeyHint="done"
+                    />
+                    <button type="submit" className="checkBtn" disabled={mailConfirmation !== values.email}> Enviar </button>
                     <Link to='/'><button className="checkBtnNg" onClick={deleteCart}>Cancelar</button></Link>
                 </form>
             </div>

@@ -8,13 +8,6 @@ export const validate = (values) => {
           });
         return false
     }
-    if (values.email.length < 7) {
-        swal("Ups!...", "El mail ingresado es incorrecto", {
-            buttons: false,
-            timer: 1500,
-          });
-        return false
-    }
     if (values.tel.length < 8) {
         swal("Ups!...", "El teléfono ingresado es incorrecto", {
             buttons: false,
@@ -22,5 +15,12 @@ export const validate = (values) => {
           });
         return false
     }
+    if (values.email.length < 7) {
+      swal("Ups!...", "El mail ingresado es incorrecto", {
+          buttons: false,
+          timer: 1500,
+        });
+      return false
+  }
   return true
 }

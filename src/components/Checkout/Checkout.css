@@ -43,8 +43,8 @@
   }
 
 .checkForm {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   }
 
 .checkForm input {
@@ -55,8 +55,8 @@
   padding-left: 1em;
   font-size: 1rem;
   border-radius: 5px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   display: flex;
   flex-direction: column;
   width: 500px;
@@ -82,7 +82,7 @@
   font-weight: 700;
   height: 3.5em;
   margin-left: 1.5rem;
-  margin-top: 40px;
+  margin-top: 30px;
   width: 220px;
 }
 .checkBtnNg{
